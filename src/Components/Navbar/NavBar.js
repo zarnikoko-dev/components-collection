@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import "./NavBar.css";
-import logo from '../../images/logo.png'
 
 const NavBar = (props) => {
     const [slide,setSlide] = useState(false);
